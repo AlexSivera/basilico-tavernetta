@@ -1,0 +1,39 @@
+// Fotografías (Unsplash License). Las marcadas con `old` son las mismas fotos que usaba la web
+// anterior del cliente, recuperadas en alta resolución desde su original en Unsplash.
+// shape: sq = cuadrada (platos vistos desde arriba) · land = horizontal · port = vertical
+
+export const photos = {
+  // ── de la web anterior, en alta resolución
+  calamares: { uid: 'RkVMzkkr4kE', raw: 'https://images.unsplash.com/photo-1727198826762-8a2bd0cb107b', old: 'stock_antipasto-calamares', credit: 'Racha Debbech', shape: 'sq', es: 'Calamares rebozados con salsa en plato blanco', en: 'Fried squid rings with dip on a white plate' },
+  croquetas: { uid: 'pXnm8TqZC08', raw: 'https://images.unsplash.com/photo-1708818296712-dede4ec86051', old: 'stock_croquetas-variadas', credit: 'Haberdoedas II', shape: 'sq', es: 'Croquetas caseras en un cuenco', en: 'Homemade croquetas in a bowl' },
+  solomillo: { uid: '89Hen-akO2Y', raw: 'https://images.unsplash.com/photo-1659881981676-33ab127152c0', old: 'stock_granja-solomillo', credit: 'Elvira Syamsir', shape: 'sq', es: 'Carne a la plancha con patatas fritas', en: 'Grilled beef with chips' },
+  bacalao: { uid: 'qrDM1rmKgOQ', raw: 'https://images.unsplash.com/photo-1633436375153-d7045cb93e38', credit: 'Parnis Azimi', shape: 'sq', es: 'Pescado sobre puré de patatas con salsa', en: 'Fish on mashed potato with sauce' },
+  carbonara: { uid: 'v_eqMPvMK2g', raw: 'https://images.unsplash.com/photo-1709201417401-5c72ed84f191', old: 'stock_pasta-carbonara', credit: 'Zoshua Colah', shape: 'sq', es: 'Plato de pasta corta con salsa cremosa', en: 'Short pasta in a creamy sauce' },
+  pinsa: { uid: 'CeOqSpWN46s', raw: 'https://images.unsplash.com/photo-1571081471219-6200d5631fb0', old: 'stock_pinsa-burrata', credit: 'Marie Dehayes', shape: 'sq', es: 'Masa alargada con burrata, tomate y rúcula', en: 'Oval flatbread with burrata, tomato and rocket' },
+  pepperoni: { uid: '_P76trHTWDE', raw: 'https://images.unsplash.com/photo-1628840042765-356cda07504e', old: 'stock_pizzas-romanas', credit: 'Fernando Andrade', shape: 'sq', es: 'Pizza de pepperoni vista desde arriba', en: 'Pepperoni pizza seen from above' },
+  risotto: { uid: 'D9fAmtjC284', raw: 'https://images.unsplash.com/photo-1609770424775-39ec362f2d94', credit: 'Max Griss', shape: 'sq', es: 'Risotto de setas en un plato de rayas', en: 'Mushroom risotto on a striped plate' },
+  burger: { uid: 'E94j3rMcxlw', raw: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90', old: 'stock_spritz-burger-angus', credit: 'David Foodphototasty', shape: 'sq', es: 'Hamburguesa con queso, lechuga y tomate', en: 'Burger with cheese, lettuce and tomato' },
+  cesar: { uid: 'FFu3-WGnas0', raw: 'https://images.unsplash.com/photo-1582034986517-30d163aa1da9', old: 'stock_spritz-ensalada-cesar', credit: 'Kenneth Mallia', shape: 'sq', es: 'Ensalada con pollo crujiente y picatostes', en: 'Salad with crispy chicken and croutons' },
+  helado: { uid: 'CdP2h2Or8Pc', raw: 'https://images.unsplash.com/photo-1689076758310-92b693fe6b8b', old: 'stock_spritz-helado', credit: 'BINYOUSSIF mohammad ali', shape: 'sq', es: 'Bola de helado', en: 'Scoop of ice cream' },
+  quesos: { uid: 'lqRfdLcZm_w', raw: 'https://images.unsplash.com/photo-1645453014403-4ad5170a386c', old: 'stock_spritz-patatas-quesos', credit: 'Some Tale', shape: 'sq', es: 'Fuente gratinada con queso fundido', en: 'Gratin dish with melted cheese' },
+  napolitana: { uid: '-0nj85eRLPk', raw: 'https://images.unsplash.com/photo-1669490883041-2d0ac48bc4c8', old: 'stock_spritz-pizza', credit: 'Narek Petrosyan', shape: 'sq', es: 'Pizza de borde alto con albahaca', en: 'Puffy-crust pizza with basil' },
+  pulpo: { uid: '_jxyzXck9uY', raw: 'https://images.unsplash.com/photo-1518510227856-30619d542ea9', old: 'stock_spritz-pulpo-gallega', credit: 'Raka Diraka', shape: 'sq', es: 'Pulpo con patatas en plato blanco', en: 'Octopus with potatoes on a white plate' },
+  tiramisu: { uid: 'yOjzfx1JD1o', raw: 'https://images.unsplash.com/photo-1563117991-8e3af5e262a3', old: 'stock_spritz-tiramisu', credit: 'Anthony Espinosa', shape: 'sq', es: 'Postre de crema en tarro de cristal', en: 'Cream dessert in a glass jar' },
+  vinos: { uid: 'd4aipVIDqYs', raw: 'https://images.unsplash.com/photo-1602215967218-817e91b4ca99', old: 'stock_spritz-vinos', credit: 'Jordon Kaplan', shape: 'sq', es: 'Copas de vino blanco y tinto en la barra', en: 'Glasses of white and red wine on a bar' },
+  mesa: { uid: 'Z_410O2ITCo', raw: 'https://images.unsplash.com/photo-1724232835838-c2010da05f82', old: 'stock_taverna-napo', credit: 'Thimotius Timmy', shape: 'land', es: 'Mesa con varias pizzas y copas de vino', en: 'Table with several pizzas and glasses of wine' },
+  penne: { uid: '2Djzc4AOqxs', raw: 'https://images.unsplash.com/photo-1626028937210-754d2118d5f7', old: 'stock_taverna-new-1', credit: 'Jasbir S Bhatia', shape: 'sq', es: 'Pasta con salsa de tomate y parmesano', en: 'Pasta with tomato sauce and parmesan' },
+  porcion: { uid: '-afBm8bQWDI', raw: 'https://images.unsplash.com/photo-1554136812-8b7875b188b2', old: 'stock_taverna-romana', credit: 'amirali mirhashemian', shape: 'sq', es: 'Porción de pizza de pepperoni', en: 'Slice of pepperoni pizza' },
+
+  // ── selección propia
+  tapas: { uid: 'Tq6ySwPiR7g', raw: 'https://images.unsplash.com/photo-1718912334263-1518476fe9b1', credit: 'eleni koureas', shape: 'sq', es: 'Raciones para compartir: croquetas, patatas con salsa, pimientos y ensalada', en: 'Sharing plates: croquetas, potatoes in sauce, peppers and salad' },
+  pesto: { uid: 'docP-fBTnjw', raw: 'https://images.unsplash.com/photo-1707448460889-e268eb742820', credit: 'shibani Mishra', shape: 'sq', es: 'Espaguetis al pesto en un plato de cerámica blanca y azul', en: 'Pesto spaghetti on a blue-and-white ceramic plate' },
+  burrata: { uid: 'NNTV0JhNmis', raw: 'https://images.unsplash.com/photo-1649400454485-b8ad827f929d', credit: 'Paras Kapoor', shape: 'sq', es: 'Burrata con tomate y vinagre de Módena', en: 'Burrata with tomato and Modena vinegar' },
+  ceramica: { uid: 'WdIL000jvA0', raw: 'https://images.unsplash.com/photo-1626256223725-bd0405405156', credit: 'Studio Crevettes', shape: 'sq', es: 'Pasta fresca sobre un plato de loza pintada en azul', en: 'Fresh pasta on a blue-painted earthenware plate' },
+  mar: { uid: 'SNM-Ks6i3ZI', raw: 'https://images.unsplash.com/photo-1761315601031-f31099c14dcc', credit: 'Ani Augustine', shape: 'sq', es: 'Pasta con gambas en un plato azul', en: 'Prawn pasta on a blue plate' },
+  sundae: { uid: 'g65SMAYRZJQ', raw: 'https://images.unsplash.com/photo-1579954115563-e72bf1381629', credit: 'Sebastian Coman Photography', shape: 'sq', es: 'Copa de helado con chocolate', en: 'Ice-cream sundae with chocolate' },
+  costilla: { uid: 'UeYkqQh4PoI', raw: 'https://images.unsplash.com/photo-1544025162-d76694265947', credit: 'Alexandru-Bogdan Ghita', shape: 'sq', es: 'Costillas asadas con patatas', en: 'Roasted ribs with potatoes' },
+  huevos: { uid: 'fzFVzWi2cLQ', raw: 'https://images.unsplash.com/photo-1610873539633-4319ac51c7c6', credit: 'Ivy Aralia Nizar', shape: 'sq', es: 'Huevo frito sobre patatas fritas con ensalada', en: 'Fried egg over chips with salad' },
+  pan: { uid: 'kU7TkW9FIJY', raw: 'https://images.unsplash.com/photo-1549413468-cd78edb7e75c', credit: 'Maria Orlova', shape: 'sq', es: 'Hogazas de pan sobre yute', en: 'Loaves of bread on jute' },
+  spritz: { uid: 'JjGLEN7T8xI', raw: 'https://images.unsplash.com/photo-1570598912132-0ba1dc952b7d', credit: 'Olena Bohovyk', shape: 'port', es: 'Spritz con hielo, naranja deshidratada y romero, vistos desde arriba', en: 'Spritz with ice, dried orange and rosemary, seen from above' },
+  spritzTarde: { uid: 'gAkqrlRsrLw', raw: 'https://images.unsplash.com/photo-1692708638651-e02b99ddec70', credit: 'Anna Keibalo', shape: 'port', es: 'Dos copas de spritz en una mesa al atardecer', en: 'Two glasses of spritz on a table at sunset' },
+};
