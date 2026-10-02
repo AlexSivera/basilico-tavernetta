@@ -11,7 +11,7 @@ npm run preview    # sirve dist/ en http://localhost:4173
 ```
 
 - Carta: `src/data/menu.mjs` · Horarios y datos: `src/data/site.mjs` · Fotos: `src/data/photos.mjs`
-- Publicación en una subcarpeta (GitHub Pages): `SITE_URL=https://usuario.github.io/repo BASE_PATH=repo npm run build`
+- Publicar en GitHub Pages: `npm run deploy` → https://alexsivera.github.io/basilico-tavernetta/
 - Investigación, dirección creativa y QA en `docs/`.
 
 Fotografías ilustrativas de Unsplash (créditos en el pie de la web).
