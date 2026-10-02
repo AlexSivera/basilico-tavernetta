@@ -571,6 +571,9 @@ html:has(.catnav) { scroll-padding-top: calc(var(--top-h) + 64px); }
 }
 @media (max-width: 899px) {
   .menu-head__grid { grid-template-columns: 1fr; }
+  .menu-head { padding-top: 96px; }
+  .mplate--2 { display: none; }
+  .mplate--1 { width: 30vw; max-width: 150px; right: -7vw; top: -30px; }
   .cat { grid-template-columns: 1fr; }
   .cat > :not(.cat__head) { grid-column: 1; }
   .cat__head { margin-bottom: 18px; }
